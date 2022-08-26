@@ -1,0 +1,44 @@
+main{
+    margin: 100px auto;
+    width: 250px;
+    height: 400px;
+    border: 8px solid black;
+    border-radius: 20px;
+    /*will be inherited by all children*/
+    color:rgb(149, 10, 10);
+    position: relative;
+}
+
+.top-container{
+    position: absolute;
+    left: 10px;
+}
+
+.middle-container{
+    position: absolute;
+    top: 120px;
+    left: 55px;
+}
+
+.bottom-container{
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+    text-align: left;
+    transform: rotate(180deg);
+}
+
+i{
+    text-shadow: 1px 2px 2px black;
+    margin-bottom: 40px;
+}
+
+.reflected{
+    transform: rotate(-180deg);
+}
+
+.number{
+    font-size: 32px;
+    color: black;
+    font-weight: bolder; 
+}
