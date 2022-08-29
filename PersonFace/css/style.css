@@ -1,0 +1,107 @@
+/*******************************
+GENERAL STYLES
+*******************************/
+* {
+  box-sizing: border-box;
+}
+
+/*******************************
+PERSON STYLES
+*******************************/
+.person {
+  width: 400px;
+  margin: 40px auto;
+  border: 1px solid;
+  padding: 40px 0px;
+  background-color: #dcb9ff;
+}
+
+.person-head {
+  border: 1px solid;
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  margin: 0px auto;
+  position: relative;
+  background-color: #f5d7cf;
+}
+
+.person-eye {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #c3a7a3;
+  border-radius: 50%;
+  position: absolute;
+  top: 50px;
+  border-top: 5px solid #c3a7a3;
+}
+
+.person-eye-left {
+  left: 50px;
+}
+
+.person-eye-right {
+  right: 50px;
+}
+
+.person-eye-in {
+  width: 10px;
+  height: 10px;
+  background-color: #644848;
+  border-radius: 50%;
+  position: absolute;
+  top: 15px;
+}
+
+.person-nose {
+  width: 0px;
+  height: 0px;
+  border-bottom: 50px solid #c3a7a3;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  position: absolute;
+  top: 100px;
+  left: 95px;
+  border-radius: 30px;
+}
+
+.person-mouth {
+  position: absolute;
+  top: 130px;
+  left: 70px;
+  height: 60px;
+  width: 100px;
+  border-bottom: 8px solid;
+  border-radius: 20px;
+  border-color: #c3a7a3;
+}
+
+.person-tie {
+  width: 80px;
+  height: 23px;
+  border: 1px solid #a10a0a;
+  margin: auto;
+  position: relative;
+}
+
+.person-tie-left {
+  width: 0px;
+  height: 0px;
+  border-right: 35px solid #000;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  position: absolute;
+  left: 5px;
+  border-right-color: #a10a0a;
+}
+
+.person-tie-right {
+  width: 0px;
+  height: 0px;
+  border-left: 35px solid #000;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  position: absolute;
+  left: 40px;
+  border-left-color: #a10a0a;
+}
