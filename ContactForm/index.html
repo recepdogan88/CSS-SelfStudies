@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>CONTACT US</legend>
+            <div class="form-example">
+                <label>First Name :</label>
+                <input type="text" class="fname" required>
+            </div>
+            <div class="form-example">
+                <label>Last Name :</label>
+                <input type="text" class="lname" required>
+            </div>
+            <div class="form-example">
+                <label>Email :</label>
+                <input type="email" class="email" required>
+            </div>
+            <div class="form-example">
+                <label>Message :</label>
+                <div>
+                    <textarea id="message" name="message" aria-describedby="format" maxlength="120" rows="4"></textarea>
+                    <p id="format">It must be a maximum of 240 characters</p>
+                </div>
+            </div>
+            <div class="form-submit">
+                <!-- comment-3: aria-label="Submit" is used for accessibility because there is not label of button tag  -->
+                <button type="submit" aria-label="Submit">Submit</button>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
