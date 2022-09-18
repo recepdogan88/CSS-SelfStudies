@@ -1,0 +1,64 @@
+body {
+    background-color: #f0f0f0;
+  }
+  
+  table {
+    margin: auto;
+    position: relative;
+    top: 100px;
+    /*comment-1: border removed */
+    border-collapse: collapse;
+  }
+  
+  caption {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  thead {
+    background-color: #015701;
+  }
+  
+  /*comment-2: all of th in thead are styled */
+  thead th {
+    color: #ffffff;
+    font-size: 20px;
+    width: 120px;
+    height: 40px;
+    text-align: left;
+  }
+  
+  thead th:nth-child(1) {
+    text-align: center;
+  }
+  
+  /*comment-3: The odd numbered "tr"s, which are the child of "tbody", are styled */
+  tbody > tr:nth-child(odd) {
+    background-color: #d0ffbb;
+  }
+  
+  /*comment-4: The odd numbered "tr"s, which are the child of "tbody", are styled when they are hover */
+  tbody > tr:nth-child(odd):hover {
+    background-color: #00b135a4;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /*comment-5: The even numbered "tr"s, which are the child of "tbody", are styled */
+  tbody > tr:nth-child(even) {
+    background-color: #9df7f3;
+  }
+  
+  /*comment-6: The even numbered "tr"s, which are the child of "tbody", are styled when they are hover */
+  tbody > tr:nth-child(even):hover {
+    background-color: #4495ff;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /*comment-7: all of th and td in tbody are styled */
+  tbody th,
+  td {
+    height: 40px;
+  }
