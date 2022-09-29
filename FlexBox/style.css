@@ -1,0 +1,46 @@
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.left-side,.right-side{
+    width: 100px;
+    height: 400px;
+}
+.square{
+    width: 500px;
+    height: 400px;
+    background-color: rgb(143, 143, 61);
+}
+.top-circles,.bottom-circles{
+    width: 500px;
+    height: 100px;
+}
+.top-circles div,.bottom-circles div,.left-side div,.right-side div{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: black;
+}
+.top-circles{
+    display: flex;
+    justify-content: space-between;
+}
+.bottom-circles{
+    display: flex;
+    justify-content: space-around;
+}
+.left-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    row-gap: 5px;
+}
+.right-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 5px;
+}
+
